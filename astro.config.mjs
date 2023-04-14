@@ -26,6 +26,9 @@ export default defineConfig({
     unocss(),
     solidJs(),
   ],
+  server:{
+	host:'0.0.0.0',
+  },
   output: 'server',
   adapter: envAdapter(),
   vite: {
